@@ -1,0 +1,23 @@
+git config --global user.name PedraoGrigolato
+git config --global user.email pedrohenriquegrigolato3@gmail.com
+
+Somente para criar o projeto:
+npx create-expo-app@latest GalloShoppingList --template blank
+
+Continuar a trabalhar:
+cd GalloShoppingList
+npm i
+
+Rodar o projeto:
+npx expo start --android
+
+Pacote Web 
+
+
+Pacote expo router
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+
+
+Algum arquivo danificado, criar outro projeto!
+Estruturar as pastas novamente e testar no expo!
