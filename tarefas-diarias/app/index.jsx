@@ -13,9 +13,9 @@ export default function Welcome() {
       </View>
 
       <View style={styles.content}>
-        <Text style={styles.title}>Tarefas Escolares</Text>
+        <Text style={styles.title}>Tarefas Diárias</Text>
         <Text style={styles.text}>
-          Monte sua lista de tarefas e não tenha mais desculpas para fazê-las!!!
+        Não se esqueça dos seus compromissos!!
         </Text>
         <Link style={styles.button} href={"/home"}>
           <Text style={styles.buttonText}>Acessar</Text>

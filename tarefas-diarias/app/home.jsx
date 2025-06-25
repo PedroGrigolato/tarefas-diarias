@@ -17,7 +17,7 @@ export default function Home() {
 
   const getItemsFromDevice = async () => {
     try {
-      const itemsMemory = await AsyncStorage.getItem('escola-todo-app');
+      const itemsMemory = await AsyncStorage.getItem('tarefas-diarias');
       if (itemsMemory != null)
         setItem(JSON.parse(itemsMemory))
     } catch (error) {
@@ -28,7 +28,7 @@ export default function Home() {
   const saveItemsToDevice = async () => {
     try {
       const itemsJson = JSON.stringify(items);
-      await AsyncStorage.setItem('escola-todo-app', itemsJson);
+      await AsyncStorage.setItem('tarefas-diarias', itemsJson);
     } catch (error) {
       console.log(`Erro: ${error}`)
     }
